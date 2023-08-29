@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+/*  font-family 'Montserrat', sans-serif; ;  */
+
+:root{
+    --fuente1: 'Montserrat', sans-serif;
+    --color1: rgb(34, 31, 31);
+    --color2: rgb(82, 121, 230);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: rgb(34, 31, 31);
+    height: 367px;
+    width: 100%;
+}
+
+.divH1 {
+    width: 42%; 
+    padding-left: 5%; 
+    animation-name: imgH1;
+    animation-duration: 10s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.divH2 {
+    width: 55%; 
+    padding-left: 15%; 
+    animation-name: imgH1;
+    animation-duration: 10s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imgH1 {
+    0% {left: 5%; top: 0px;} 
+    10% {left: 10%; top: 0px;} 
+    20% {left: 15%; top: 0px}
+    25% {left: 20%; top: 0px;}
+    30% {left: 25%; top: 0px;}
+    35% {left: 30%; top: 0px;}
+    40% {left: 35%; top: 0px;}
+    45% {left: 40%; top: 0px;}
+    50% {left: 45%; top: 0px;}
+    60% {left: 40%; top: 0px;}
+    65% {left: 35%; top: 0px;}
+    70% {left: 30%; top: 0px;}
+    75% {left: 25%; top: 0px;}
+    80% {left: 20%; top: 0px;}
+    85% {left: 15%; top: 0px;}
+    90% {left: 10%; top: 0px;}
+    100% {left: 5%; top: 0px;} 
+}
+
+.imgH1 {
+    width: 100%; 
+    height: 65px;
+    position: relative;
+}
+
+.imgH2 {
+    width: 100%; 
+    height: 45px;
+    position: relative;
+}
+
+
+/* navbar */
+
+.navbar{
+    color: white;
+    height: 200px;
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+.imgIcono{
+    height: 70px;
+    width: 70px;
+}
+
+/* main */ 
+
+.main{
+    background-color: rgb(34, 31, 31);
+    height: 2100px;
+}
+
+.hr{
+    background-color: rgb(82, 121, 230);
+}
+
+.hr hr{
+    border-color:rgb(82, 121, 230) ;
+}
+
+/* about me */
+
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#aboutMe img{
+    height: 30px;
+    width: 250px;
+}
+
+.pAboutMe{
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    font-family: var(--fuente1);
+}
+
+/* skills */ 
+
+#skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#skills img{
+    height: 40px;
+    width: 220px;
+}
+
+/* lista de skills */
+
+.listaSkills{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.react{
+    width: 80px;
+    height: 80px;
+
+    animation-name: react;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes react {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+.js{
+    width: 80px;
+    height: 80px;
+
+    animation-name: js;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes js {
+    0% {left: 0px;bottom: 0px;}
+    25% {left: 0px;bottom: 25px;}
+    50% {left: 0px;bottom: 50px;}
+    75% {left: 0px;bottom: 25px;}
+    100% {left: 0px;bottom: 0px;}
+}
+
+.html{
+    width: 80px;
+    height: 80px;
+
+    animation-name: html;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes html {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+.css{
+    width: 80px;
+    height: 80px;
+
+    animation-name: css;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes css {
+    0% {left: 0px;bottom: 0px;}
+    25% {left: 0px;bottom: 25px;}
+    50% {left: 0px;bottom: 50px;}
+    75% {left: 0px;bottom: 25px;}
+    100% {left: 0px;bottom: 0px;}
+}
+
+.boostrap{
+    width: 80px;
+    height: 80px;
+
+    animation-name: boostrap;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boostrap {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+
+.github{
+    height: 80px;
+    width: 80px;
+
+    animation-name: github;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes github {
+    0% {left: 0px;bottom: 0px;}
+    25% {left: 0px;bottom: 25px;}
+    50% {left: 0px;bottom: 50px;}
+    75% {left: 0px;bottom: 25px;}
+    100% {left: 0px;bottom: 0px;}
+}
+
+
+.firebase{
+    height: 80px;
+    width: 80px;
+
+    animation-name: firebase;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firebase {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+.sass{
+    height: 80px;
+    width: 80px;
+
+    animation-name: sass;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sass {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+
+.babel{
+    height: 80px;
+    width: 80px;
+
+    animation-name: babel;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes babel {
+    0% {left: 0px;bottom: 0px;}
+    25% {left: 0px;bottom: 25px;}
+    50% {left: 0px;bottom: 50px;}
+    75% {left: 0px;bottom: 25px;}
+    100% {left: 0px;bottom: 0px;}
+}
+
+.vs{
+    height: 80px;
+    width: 80px;
+
+    animation-name: vs;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vs {
+    0% {left: 0px;top: 0px;}
+    25% {left: 0px;top: 25px;}
+    50% {left: 0px;top: 50px;}
+    75% {left: 0px;top: 25px;}
+    100% {left: 0px;top: 0px;}
+}
+
+.responsive{
+    height: 80px;
+    width: 80px;
+
+    animation-name: responsive;
+    animation-duration: 4s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes responsive {
+    0% {left: 0px;bottom: 0px;}
+    25% {left: 0px;bottom: 25px;}
+    50% {left: 0px;bottom: 50px;}
+    75% {left: 0px;bottom: 25px;}
+    100% {left: 0px;bottom: 0px;}
+}
+.h4_provi{
+    color: white;
+    font-size: 30px;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#projects img{
+    height: 35px;
+    width: 250px;
+}
+
+/* Projects */
+
+.projectContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    
+}
+
+.cardContainer{
+    border: 4px solid rgb(82, 121, 230);
+    border-radius: 5%;
+}
+
+.divH1Img{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divLink{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.h1Portada{
+    font-family: var(--fuente1);
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.imgPortada{
+    width: 250px;
+    height: 450px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+}
+
+.linkProject{
+    font-family: var(--fuente1);
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
